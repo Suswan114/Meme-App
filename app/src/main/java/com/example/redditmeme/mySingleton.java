@@ -42,6 +42,7 @@ public class mySingleton {
         if (instance == null) {
             instance = new mySingleton(context);
         }
+        // me
         return instance;
     }
 
